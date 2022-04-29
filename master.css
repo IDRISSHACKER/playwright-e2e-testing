@@ -5,9 +5,9 @@
 }
 
 html{
-    background: #f0f3f5;
+    background: rgb(9, 8, 34);
     font-family: "Poppins", sans-serif;
-    --color: rgb(9, 130, 211);
+    --color: rgb(5, 66, 107);
 }
 
 .container{
@@ -25,19 +25,19 @@ html{
     line-height: 110px;
     letter-spacing: 22px;
     font-weight: 700;
-    color: #1d2424;
+    color: #ffffff;
 }
 
 .content{
     line-height: 36px;
     letter-spacing: 1px;
-    color: #79797a;
+    color: #d3d3e2;
 }
 
 .author{
     line-height: 36px;
     letter-spacing: 1px;
-    color: #18161b;
+    color: #f0f0f0;
 }
 
 .mt{
@@ -65,36 +65,38 @@ html{
     background: var(--color);
     color: white;
     font-size: 1rem;
-    letter-spacing: 1px;
-    line-height: 20px;
-    font-weight: 400;
+    white-space:initial;
+    line-height: 1.6;
+    font-weight: 700;
     border-radius: 4px;
     cursor: pointer;
     transition: all linear 300ms;
 }
 
 .btn-secondary{
-    background: #fff !important;
+    background: transparent !important;
     color: var(--color);
     border: solid 1px var(--color);
 }
 
 .btn:hover{
-    transform: scale(1.1);
+    transform: scale(1.02);
+    border-width: 0.2px !important;
 }
 
 .card{
     user-select: none;
-    background: #fff;
+    background: rgb(14, 12, 48);
     padding: 4rem 3rem;
     border-radius: 10px;
-    box-shadow: 1px 3px 2px -3px rgb(0 0 0/20%);
+    /*box-shadow: 1px 3px 2px -3px rgb(0 0 0/20%), 1px 3px 2px -0px rgb(0 0 0/5%);*/
+    border: solid .1px var(--color);
 }
 
 
 .rotate:hover{
     transform: rotate(5deg);
-    background: #e7e9eb;
+    /*background: #5f9fdf;*/
 }
 
 .rotate:hover .card{
