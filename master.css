@@ -85,7 +85,6 @@ html{
 }
 
 .card{
-    user-select: none;
     background: rgb(14, 12, 48);
     padding: 4rem 3rem;
     border-radius: 10px;
