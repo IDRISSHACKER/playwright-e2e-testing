@@ -1,0 +1,11 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:IDRISSHACKER/playwright-e2e-testing.git",
+  "author": "IDRISSHACKER",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.21.1"
+  }
+}
